@@ -1,7 +1,8 @@
 # Bootcamp Profissional DevOps 
 
 Este repositório contém todos os arquivos e projetos desenvolvidos 
-no Bootcamp Profissional DevOps da XP Educação. A estrutura do 
+no Bootcamp Profissional DevOps da XP Educação. A estrutura do Bootcamp
+se dá em 4 módulos como mostrado abaixo:
 
 **[Modulo 1 :](./Modulo_1)** Foundamentos do Professional DevOps
 
