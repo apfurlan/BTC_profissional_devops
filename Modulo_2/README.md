@@ -21,3 +21,31 @@
 
 
 
+--- 
+
+# Commands
+
+```
+npm init
+
+Press ^C at any time to quit.
+package name: (serverrestapi) 
+version: (1.0.0) 
+description: Testes automatizados de API
+entry point: (index.js) 
+test command: test
+git repository: 
+keywords: test, cypress, xpeducacao
+author: Alexandre Furlan
+license: (ISC) 
+About to write to ....
+```
+
+```
+npm install cypress --save-dev
+```
+
+```
+npx cypress open
+```
+

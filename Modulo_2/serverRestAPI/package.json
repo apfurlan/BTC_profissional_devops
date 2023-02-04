@@ -1,0 +1,16 @@
+{
+  "name": "serverrestapi",
+  "version": "1.0.0",
+  "description": "Testes automatizados de API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "test",
+    "cypress",
+    "xpeducacao"
+  ],
+  "author": "Alexandre Furlan",
+  "license": "ISC"
+}
