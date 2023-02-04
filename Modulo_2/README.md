@@ -45,7 +45,45 @@ About to write to ....
 npm install cypress --save-dev
 ```
 
+a instalação terá corrido
+
+```sh
+npm WARN idealTree Removing dependencies.cypress in favor of devDependencies.cypress
+
+changed 1 package, and audited 173 packages in 25m
+
+35 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+```
+
+agora vamos abrir a aplicação 
 ```
 npx cypress open
+```
+
+```
+    git clone https://github.com/ServeRest/ServeRest.git
+```
+
+```
+cd ServeRest
+
+npm install
+```
+```
+npm run dev
+```
+
+```
+npm install unique-names-generator --save-dev
+
+added 1 package, and audited 174 packages in 2s
+
+35 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
 ```
 
