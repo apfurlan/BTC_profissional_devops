@@ -27,8 +27,10 @@
 [Aula 4.2](https://www.youtube.com/watch?v=r_DaHr-91_U) - Abordagens de desenvolvimento orientadas a testes \ 
 [Aula 4.3](https://www.youtube.com/watch?v=61FpcWwM4Hs) - Pirâmides de testes \ 
 [Aula 4.4](https://www.youtube.com/watch?v=tkf_gbmLJTg) - Hands-on criando testes de API \
+[Aula 4.5](https://www.youtube.com/watch?v=ea5pbGqzLCw) - Hands-on criando testes de UI \
 
-**Lab aula 4.4**
+
+## Lab aula 4.4
 
 Neste fizemos um lab implementando um teste de API com o cypress. Segue abaixo 
 as instalações necessárias para a realização do exercício. 
