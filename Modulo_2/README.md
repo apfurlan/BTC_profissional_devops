@@ -30,7 +30,9 @@
 [Aula 4.5](https://www.youtube.com/watch?v=ea5pbGqzLCw) - Hands-on criando testes de UI \
 
 
-## Lab aula 4.4
+## Honds-On 
+
+### aula 4.4
 
 Neste fizemos um lab implementando um teste de API com o cypress. Segue abaixo 
 as instalações necessárias para a realização do exercício. 
@@ -51,7 +53,7 @@ npx cypress open
 ```
 
 ```
-    git clone https://github.com/ServeRest/ServeRest.git
+git clone https://github.com/ServeRest/ServeRest.git
 ```
 
 ```
@@ -66,4 +68,6 @@ npm run dev
 npm install unique-names-generator --save-dev
 ```
 
-[Aula 4.5](https://www.youtube.com/watch?v=ea5pbGqzLCw) - Hands-on criando testes de UI
+---
+
+### aula 4.5
