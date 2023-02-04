@@ -17,48 +17,33 @@
 
 ## Controles de versão
 
+[Aula 3.1](https://www.youtube.com/watch?v=qZZojdheLSA) - Conceitos básicos \
+[Aula 3.2](https://www.youtube.com/watch?v=XSb3OkllynU) - Manipulando arquivos e sincronizando \
+[Aula 3.3](https://www.youtube.com/watch?v=-uT7ykMb7Bg) - Tags, branches, merging
+
 ## Testes automatizados
 
+[Aula 4.1](https://www.youtube.com/watch?v=1GxPPG5_P7A) - Tipos de testes e níveis de testes \
+[Aula 4.2](https://www.youtube.com/watch?v=r_DaHr-91_U) - Abordagens de desenvolvimento orientadas a testes \ 
+[Aula 4.3](https://www.youtube.com/watch?v=61FpcWwM4Hs) - Pirâmides de testes \ 
+[Aula 4.4](https://www.youtube.com/watch?v=tkf_gbmLJTg) - Hands-on criando testes de API \
 
+**Lab aula 4.4**
 
---- 
+Neste fizemos um lab implementando um teste de API com o cypress. Segue abaixo 
+as instalações necessárias para a realização do exercício. 
 
-# Commands
 
 ```
 npm init
-
-Press ^C at any time to quit.
-package name: (serverrestapi) 
-version: (1.0.0) 
-description: Testes automatizados de API
-entry point: (index.js) 
-test command: test
-git repository: 
-keywords: test, cypress, xpeducacao
-author: Alexandre Furlan
-license: (ISC) 
-About to write to ....
 ```
 
 ```
 npm install cypress --save-dev
 ```
 
-a instalação terá corrido
+Para abrir a aplicação 
 
-```sh
-npm WARN idealTree Removing dependencies.cypress in favor of devDependencies.cypress
-
-changed 1 package, and audited 173 packages in 25m
-
-35 packages are looking for funding
-  run `npm fund` for details
-
-found 0 vulnerabilities
-```
-
-agora vamos abrir a aplicação 
 ```
 npx cypress open
 ```
@@ -69,7 +54,6 @@ npx cypress open
 
 ```
 cd ServeRest
-
 npm install
 ```
 ```
@@ -78,12 +62,6 @@ npm run dev
 
 ```
 npm install unique-names-generator --save-dev
-
-added 1 package, and audited 174 packages in 2s
-
-35 packages are looking for funding
-  run `npm fund` for details
-
-found 0 vulnerabilities
 ```
 
+[Aula 4.5](https://www.youtube.com/watch?v=ea5pbGqzLCw) - Hands-on criando testes de UI
