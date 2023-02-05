@@ -1,0 +1,20 @@
+{
+  "name": "serverrestui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "test",
+    "ui",
+    "cypress",
+    "xpeducacao"
+  ],
+  "author": "Alexandre Furlan",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.5.1"
+  }
+}

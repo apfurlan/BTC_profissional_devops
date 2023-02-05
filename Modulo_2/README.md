@@ -71,3 +71,22 @@ npm install unique-names-generator --save-dev
 ---
 
 ### aula 4.5
+
+Criar um conjunto de passos com uma automação mínima para 
+posteriomente implantá-lo em um servidor de Integração contínua. 
+
+Instalações iniciais
+```
+npm init
+```
+```
+npm install cypress --sabe-dev
+```
+
+A aplicação base será : 
+- https://www.saucedemo.com/
+
+Adicionar no cypress.config.js : 
+    - baseUrl : 'https://www.saucedemo.com' , 
+    - chromeWebSecurity : false
+
