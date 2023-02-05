@@ -34,8 +34,8 @@
 
 ### aula 4.4
 
-Neste fizemos um lab implementando um teste de API com o cypress. Segue abaixo 
-as instalações necessárias para a realização do exercício. 
+Nesta aula fizemos um lab implementando um teste de API com o cypress. 
+Segue abaixo as instalações necessárias para a realização do exercício. 
 
 
 ```
@@ -90,3 +90,6 @@ Adicionar no cypress.config.js :
     - baseUrl : 'https://www.saucedemo.com' , 
     - chromeWebSecurity : false
 
+Os arquivos importantes deste lab estaão em cypress/e2e. Nele
+estão os arquivos que dão origem aos dois testes realizados 
+no Cypress. 
