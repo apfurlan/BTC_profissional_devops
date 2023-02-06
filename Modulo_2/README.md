@@ -92,4 +92,7 @@ Adicionar no cypress.config.js :
 
 Os arquivos importantes deste lab estaão em cypress/e2e. Nele
 estão os arquivos que dão origem aos dois testes realizados 
-no Cypress. 
+no Cypress. Nestes arquivos vocês verão em it() todas as etapas
+de check do teste. Dentro de support também adicionamos em 
+commands.js as capacidade de armazenas a página atual do 
+teste.
