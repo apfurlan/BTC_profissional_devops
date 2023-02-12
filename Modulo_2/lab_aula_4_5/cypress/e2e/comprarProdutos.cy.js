@@ -1,8 +1,16 @@
 describe('Login no Sauce Labs', () => {
   
+  Cypress.session.clearAllSavedSessions()
+
   beforeEach(() => {
+    cy.session('login', () => {
+      cy.visit('/')
+      cy.get('[data-test="username"]').type('standard_user') ;
+      cy.get('[data-test="password"]').type('secret_sauce') ;
+      cy.get('[data-test="login-button"]').click() ;
+    })
     cy.restoreLocalStorage() ;
-    Cypress.Cookies.preserveOnce('session_id','session-username');
+    // Cypress.Cookies.preserveOnce('session_id','session-username');
   });
 
   afterEach(() => {
